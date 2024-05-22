@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Collage App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container">
+        <center>
+            <h1>Collage Web App
+            </h1>
+
+            <hr>
+
+            <h4 style="color:rgb(0, 0, 0);">As soon as the popup appears , please click Allow. After you've spoken a
+                command </h4>
+
+            <div class="form-group">
+                <h3>Say "selfie" for taking your selfies and to make a Collage </h3>
+                <textarea name="" id="textbox"></textarea>
+                <br>
+            </div>
+            <button onclick="start()" id="btn" class="btn">Start</button>
+            <p>Press the Start button</p>
+
+
+
+            <label>Your webcam : </label>
+
+            <div id="camera"></div>
+
+            <br>
+
+            <label>All selifes will be displayed here: </label>
+            <div id="result1" class="image">
+                <img src="https://crimecheckaustralia.com.au/wp-content/uploads/2021/06/smiling-woman-shirt-making-selfie-studio.jpg"
+                    alt="">
+            </div>
+            <div id="result2" class="image">
+                <img src="https://images.cnbctv18.com/wp-content/uploads/2022/06/selfie.jpg?impolicy=website&width=590&height=264"
+                    alt="">
+            </div>
+            <div id="result3" class="image">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiZr_pWS75R7EE_hgUseG2ii_YtaDmDpUbCw&usqp=CAU"
+                    alt="">
+            </div>
+
+        </center>
+        <div id="footer">Developed by - Katelyn</div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
